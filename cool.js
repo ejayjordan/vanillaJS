@@ -1,3 +1,18 @@
+let txtUsername = document.getElementById("username");
+txtUsername.value = "AAAaaaa";
+    // value is the input within text boxes
+    //changes to value occur in Javascript
+
+function getValue(){
+    alert(txtUsername.value);
+    //Do not use alerts in this class, because they are modal dialogue (cannot interact with anything else on page while it's on screen) anti-user experience, alert is for ALERTING!!!
+
+}
+
+
+
+
+/* OLD COOL.JS
 let myDiv = document.getElementById("example")
 myDiv.addEventListener("click", (event) => {
     
@@ -13,6 +28,6 @@ myDiv.addEventListener("click", (event) => {
 })
 
 //original statement
-/*function doThing(event){
+function doThing(event){
     event.target.innerHTML = "cool"
 }*/
